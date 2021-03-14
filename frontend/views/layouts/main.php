@@ -25,15 +25,15 @@ MainAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-<header class="flex">
+<header class="flex dir-column">
     <div class="logo">
       FileSaver
     </div>
 </header>
-<main class="flex">
+<main class="flex dir-column">
   <?=$content?>
 </main>
-<footer class="flex">
+<footer class="flex dir-column">
     <div class="logo">
       FileSaver
     </div>

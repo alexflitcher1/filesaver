@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: "Cantarell";
+    font-family: "Arial";
 }
 
 main, .logo {
@@ -9,8 +9,23 @@ main, .logo {
   margin-right: 5%;
 }
 
-header, footer, main {
-  flex-direction: column;
+.container {
+  word-wrap: break-word;
+}
+
+.text {
+
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 1%;
+  font-size: 1.5em;
+}
+
+#filesaver-logo {
+  font-weight: bold;
+  font-size: 2.5em;
 }
 
 header, footer {
@@ -19,6 +34,5 @@ header, footer {
 
 header { margin-bottom: 1%; }
 footer { margin-top: 1%; }
-.flex {
-  display: flex;
-}
+.flex { display: flex; }
+.dir-column { flex-direction: column; }
